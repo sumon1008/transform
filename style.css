@@ -1,0 +1,39 @@
+body{
+    
+    
+}
+.field{
+    border: blue solid 2px;
+    height: 400px;
+   
+}
+.field:hover .bat{
+    transform: rotate(80deg);
+    transform-origin: top left;
+   
+   
+
+}
+.field:hover .ball{
+    transform: translate(-900px, -300px );
+   
+   
+}
+
+
+.bat{
+
+    width: 200px;
+    position: relative;
+    left: 80%;
+    top: 100px;
+    transition: transform linear .18s;
+}
+.ball{
+    width: 30px;
+    position: relative;
+    left: 56%;
+    top: 100px;
+    transition: transform linear  .3s .2s;
+   
+}
